@@ -1,0 +1,6 @@
+n = input('Digite a string a ser analisada : ')
+print(type(n))
+print('E um número? ', n.isnumeric())
+print('E alfabeto? ', n.isalpha())
+print('E alfanumerico? ', n.isalnum())
+print('Está em ascii: ', n.isascii())
